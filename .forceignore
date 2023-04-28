@@ -1,0 +1,16 @@
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+#
+package.xml
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+# LWC Jest
+**/__tests__/**
+
+developer.salesforce.comdeveloper.salesforce.com
+How to Exclude Source When Syncing or Converting | Salesforce DX Developer Guide | Salesforce Developers
+When syncing metadata between your local file system and a target org, you often have
+source files you want to exclude. Similarly, you often want to exclude certain files when
+converting source to Salesforce DX source format. In both cases, you can exclude individual
+files or all files in a specific directory with a .forceignore file.
